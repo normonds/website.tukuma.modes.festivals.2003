@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<TITLE>html</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1257">
+<style>
+IMG {border:0;}
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+//if(document.images) {
+   var foc = 'par'; 
+
+  par0 = new Image(); par0.src = 'images/index_03.gif';
+  par1 = new Image(); par1.src = 'images/index_03_1.gif';
+
+  pas0 = new Image(); pas0.src = 'images/index_04.gif';
+  pas1 = new Image(); pas1.src = 'images/index_04_1.gif';
+  
+  ptn0 = new Image(); ptn0.src = 'images/index_05.gif';
+  ptn1 = new Image(); ptn1.src = 'images/index_05_1.gif';
+  
+  //prs0 = new Image(); prs0.src = 'images/presei.gif';
+  //prs1 = new Image(); prs1.src = 'images/presei_1.gif';
+  
+  fot0 = new Image(); fot0.src = 'images/index_06.gif';
+  fot1 = new Image(); fot1.src = 'images/index_06_1.gif';
+  
+  knt0 = new Image(); knt0.src = 'images/index_07.gif';
+  knt1 = new Image(); knt1.src = 'images/index_07_1.gif';
+//}
+
+function change(what, to, naame){
+  if(document.images && naame != foc) {
+     what.src = to.src;
+  }
+}  
+
+function clicks (what, to, focuz) {
+  if(document.images) {
+     par.src = par0.src;
+	 pas.src = pas0.src;
+	 ptn.src = ptn0.src;
+	 //prs.src = prs0.src;
+	 fot.src = fot0.src;
+	 knt.src = knt0.src;
+	 
+     foc = focuz;
+     what.src = to.src;
+  }
+}
+</SCRIPT> 
+</HEAD>
+<BODY background="images/background.png" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<!-- ImageReady Slices (html.psd) -->
+<center>
+<TABLE WIDTH=990 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=7>
+			<IMG SRC="images/index_01.gif" WIDTH=990 HEIGHT=78 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/index_02.gif" WIDTH=241 HEIGHT=690 ALT=""></TD>
+		<TD>
+			<a onMouseOut="change(par, par0, 'par')" onMouseOver="change(par, par1, 'par')" onClick="clicks(par, par1, 'par')" href="indexbot_parmums.html" target="bot"><IMG name="par" SRC="images/index_03.gif" WIDTH=104 HEIGHT=39 ALT=""></a></TD>
+		<TD>
+			<a onMouseOut="change(pas, pas0, 'pas')" onMouseOver="change(pas, pas1, 'pas')" onClick="clicks(pas, pas1, 'pas')" href="indexbot_daliiba.html" target="bot"><IMG name="pas" SRC="images/index_04.gif" WIDTH=104 HEIGHT=39 ALT=""></a></TD>
+		<TD>
+			<a onMouseOut="change(ptn, ptn0, 'ptn')" onMouseOver="change(ptn, ptn1, 'ptn')" onClick="clicks(ptn, ptn1, 'ptn')"  href="indexbot_partneri.html" target="bot"><IMG name="ptn" SRC="images/index_05.gif" WIDTH=101 HEIGHT=39 ALT=""></TD>
+		<TD>
+			<a onMouseOut="change(fot, fot0, 'fot')" onMouseOver="change(fot, fot1, 'fot')" onClick="clicks(fot, fot1, 'fot')"  href="indexbot_foto.html" target="bot"><IMG name="fot" SRC="images/index_06.gif" WIDTH=97 HEIGHT=39 ALT=""></a></TD>
+		<TD>
+			<a onMouseOut="change(knt, knt0, 'knt')" onMouseOver="change(knt, knt1, 'knt')" onClick="clicks(knt, knt1, 'knt')"  href="indexbot_kontakti.html" target="bot"><IMG name="knt" SRC="images/index_07.gif" WIDTH=107 HEIGHT=39 ALT=""></a></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/index_08.gif" WIDTH=236 HEIGHT=690 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5>
+			<IMG SRC="images/index_09.gif" WIDTH=513 HEIGHT=64 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5>
+			<IMG SRC="images/index_10.gif" WIDTH=513 HEIGHT=587 ALT=""></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>
