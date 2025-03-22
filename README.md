@@ -6,6 +6,6 @@ Remastered in 2025
 • Added front poster  
 • Recreated images from source
 
-[View it on github pages](https://normonds.github.io/website.tukuma.modes.festivals.2003)
+[View it on github pages](https://normonds.github.io/website.tukuma-modes-festivals-2003)
 
 ![Website preview](website.preview.png)
